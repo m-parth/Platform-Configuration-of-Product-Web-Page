@@ -4,72 +4,104 @@
 <title>TCS iON Compass School</title>
 <meta content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 <style>
+body {
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: -25px;
+    margin-left: 40px;
+}
 .mainBanner {
     background-image: url("images/Compass/Compass_prof_school_left_banner.jpg");
-    width: 100%
-    height: 45%
-}
-.bannerImg {
     width: 100%;
+    height: 380px;
+    margin-top: -35px;
+    background-origin: border-box;
 }
 .overlap {
-    position: absolute;
-    top: 15%;
+    position: relative;
+    top: 25%;
     left: 16px;
-    color: yellow;
+    color: #fefe2c;
+    font-size: 35px;
+    margin-left: 12%;
+    margin-right: 12%;
+
 }
 .overlap1 {
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 25%;
     left: 16px;
+    color: white;
+    font-weight: bold;
     font-style: italic;
+    font-size: 22px;
+    margin-left: 12%;
+    margin-right: 12%;
+
 }
 .report {
-    background-color: #d0dcfc;
+    background-color: #cddefa;
     text-align: center;
-    height: 500px
+    height: 600px;
+    margin-top: -20px;
+
+
 }
-.embedPDF {
-    margin: 0 auto;
-    height: 100%
+.reportSection {
+    background-image: url("/images/Compass/compass-bg.jpg");
+    width: 100%;
+    height: 450px;
+    margin-top: -20px;
+    border: 0;
+    padding: 0;
+    background-origin: border-box;
 }
+
 .buy {
-    border: 5px outset red;
-    background-color: cyan;
+    
+    background-color: #80e5f1;
     text-align: center;
 }
 .child {
-  display: inline-block;
-  border: 1px solid red;
-  border-radius: 25px
-  padding: 1rem 1rem;
-  vertical-align: middle;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    width: 25%;
+    margin: 50px;
+    text-align: center;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>TSC iON Compass - School</h1>
-    <p>Learner Counselling</p>
-    <p>Offered By <img src="" alt="TCS iON Logo"> | In Association With <img src="" alt="iDC Logo"> </p>
+<header class="header">
+    <h1 style="margin: 0;">TSC iON Compass - School</h1>
+    <p style="margin: 0; font-size: 13px;"><strong>Learner Counselling</strong></p>
+    <p style="margin-top: -15px; font-size: 13px; font-weight: bold;">Offered By &nbsp<img src="/images/product/ionLogo.png" width="80px" alt="TCS iON Logo">&nbsp &nbsp<span style="font-size: x-large; font-weight: lighter;">|</span>&nbsp In Association With <img src="/images/Compass/iDC_Logo.png" width="50px" alt="iDC Logo"> </p>
 </header>
 
 <div class="mainBanner">
-
     <p class="overlap">You have successfully completed the assessment for <strong>Compass School</strong> and can now avail the paid offerings.<p>
     <p class="overlap1">Please view your Insights Card.</p>
 </div>
 
 <div class="report">
-<h2>Insight Card</h2>
-    <embed class="embedPdf" type="application/pdf" width="80%" height="75%" src="/pdf/DUMMY REPORT.pdf">
+    <br>
+<p style="font-size: 40px;">Insights Card</p>
+    <embed class="embedPdf" type="application/pdf" width="80%" height="70%" src="/pdf/DUMMY REPORT.pdf">
     </embed>
 </div>
 
-<div>
+<div class="reportSection">
     <h2>Steer with TCS iON Compass - School</h2>
     <p>Post attempting the free assessment and receiving the Insights Card you can explore the paid offerings</p>
 <div>
@@ -135,15 +167,35 @@
 </div>
 
 <div class="buy">
-<h1>Hello</h1>
     <div class='child'>
-        Child 1
+        <p>Career Fitment Report</p>
+        <img alt="">
+        <h4>Career Fitment Report provides</h4>
+        <ul>
+            <li>Understand your abilities, personal characteristics, interests and preferences</li>
+            <li>Identify career options that are consistent with your personal profile</li>
+            <li>Directing your career exploration and planning based on informed and accurate results</li>
+            <li>Charting out action plan to advance your career goals</li>
+        </ul>
+        <h3>&#8377; 1500/-</h3>
+        <p><a href="">Click here to buy Career Fitment Report</a></p>
+
     </div>
         
         
         
     <div class='child'>
-Child 2
+        <p>Career Fitment Report & Counselling</p>
+        <img alt="">
+        <h4>Counselling with Career Fitment Report</h4>
+        <ul>
+            <li>One-on-one counselling session with our experts</li>
+            <li>30 to 40 minutes online counselling session</li>
+            <li>Interpretation of Career Fitment Report</li>
+            <li>Provide guidance for selection of right stream and courses to pursue a career of your choice</li>
+        </ul>
+        <h3>&#8377; 5000/-</h3>
+        <p><a href="">Click here to buy Career Fitment Report & Counselling</a></p>
     </div>
 </div>
 </body>
