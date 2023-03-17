@@ -1,2 +1,3 @@
 # Platform-Configuration-of-Product-Web-Page
-![Index Screenshot](https://user-images.githubusercontent.com/66204816/225873734-bc1c04eb-6722-4916-8545-5543e0afa647.png)
+![IndexScreenshot](https://user-images.githubusercontent.com/66204816/225900513-e00acc0b-a2eb-448d-881f-68b717e23fe9.png)
+
