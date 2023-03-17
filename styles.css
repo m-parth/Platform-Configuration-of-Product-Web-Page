@@ -13,7 +13,6 @@ header {
     width: 100%;
     height: 380px;
     margin-top: -35px;
-    background-origin: border-box;
 }
 .overlap {
     position: relative;
@@ -23,7 +22,6 @@ header {
     font-size: 35px;
     margin-left: 12%;
     margin-right: 12%;
-
 }
 .overlap1 {
     position: relative;
@@ -35,20 +33,17 @@ header {
     font-size: 22px;
     margin-left: 12%;
     margin-right: 12%;
-
 }
 .reportPDF {
     background-color: #cddefa;
     text-align: center;
     height: 600px;
     margin-top: -20px;
-
-
 }
 .reportSection {
     background-image: url("/images/Compass/compass-bg.jpg");
     width: 100%;
-    height: 550px;
+    height: 620px;
     margin-top: -40px;
     border: none;
     background-origin: border-box;
@@ -61,7 +56,6 @@ header {
     border-spacing: 0px;
     border: none;
     background-color: #ffffff;
-    
 }
 .firstRow {
     text-align: left;
@@ -71,8 +65,8 @@ header {
     padding-left: 20px;
 }
 .thirdRow {
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd;
 }
 .greenTick{
     color: #2ec775;
@@ -82,23 +76,6 @@ header {
     color: red;
     font-size: 20px;
 }
-.buySection {
-    
-    background-color: #80e5f1;
-    text-align: center;
-}
-.child {
-    display: inline-block;
-    border: 1px solid red;
-    border-radius: 25px;
-    padding: 0px;
-    vertical-align: middle;
-    width: 25%;
-    height: 500px;
-    margin: 50px;
-    text-align: center;
-}
-
 button {
     background-color: #00a6ec;
     border: none;
@@ -108,4 +85,75 @@ button {
     font-weight: bold;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
+}
+.buySection {
+    
+    background-color: #80e5f1;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 460px;
+    height: 600px;
+    margin: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.headingLeft {
+    background-color: #6b00fe; 
+    color: #ffffff; 
+    margin: auto; 
+    width: 100%; 
+    height: 45px;
+    font-size: 23px;
+    border-radius: 10px 10px 0 0;
+    padding-top: 12px;
+}
+.headingRight {
+    background-color: #ffaf3c; 
+    color: #ffffff; 
+    margin: auto; 
+    width: 100%; 
+    height: 45px;
+    font-size: 23px;
+    border-radius: 10px 10px 0 0;
+    padding-top: 12px;
+}
+.cardHeading{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 5px;
+
+}
+.cardText{
+    text-align: left;
+    line-height: 140%;
+    width: 82%;
+    font-size: 15px;
+    align-content: center;
+    margin-top: -8px;
+    margin-left: 20px;
+    
+}
+.amount{
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 35px;
+    background-color: #e8e8e8;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.buyLink{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
 }
